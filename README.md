@@ -20,8 +20,7 @@
 	   		<property name="urlAddress"><value>http://localhost:8080/weixinAgent/wxAgentServlet</value></property>
 	   </bean>
                     
-### 绘制表格 Tables
-
+### 属性说明
 | 属性名称        | 属性类型   |  备注  |
 | --------   | -----:  | :----:  |
 | queue       | int   | 队列名称，如果为空或者不带此参数默认的为配置文件中的队列 |
