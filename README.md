@@ -21,11 +21,23 @@
 	   </bean>
                     
 ### 属性说明
-| 属性名称        | 属性类型   |  备注  |
-| :----:   | -----:  | :----  |
-| queue       | int   | 队列名称，如果为空或者不带此参数默认的为配置文件中的队列 |
-| device        |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
-| theme       |    string   |  网聊的主题配置，会根据客户的要求通过css修改不同的界面显示效果。比如客户是钱包，就需要在“EliteWebChat\jsp\standard\theme” 文件夹下面新建“qbao”目录 ，然后修改属性value值位钱包文件夹同名的字符串(建议直接复制即可)，界面效果显示的就是钱包网聊的效果|
+| 属性名称	     | 属性类型       |  备注  			      |
+| :----:   	| -----:  	| :----  			     |
+| theme       	|    string   |  网聊的主题配置，会根据客户的要求通过css修改不同的界面显示效果。比如客户是钱包，就需要在“EliteWebChat\jsp\standard\theme” 文件夹下面新建“qbao”目录 ，然后修改属性value值位钱包文件夹同名的字符串(建议直接复制即可)，界面效果显示的就是钱包网聊的效果|
+| interfaceUrl       |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| rightModule        |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| rateModule         |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| mobileRateModule   |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| sendToGateWayPage  |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| queue              |   int      |  设备名称 pc ,mobile 默认为--pc--  |
+| autoSwitchRobotMode|   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+### 关于微信属性配置说明
+| 属性名称     | 属性类型    |  备注				|
+| :----:      | -----:     | :----  |
+| appid       |   Stirng   |  设备名称 pc ,mobile 默认为--pc--	|
+| secret      |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| grant_type  |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
+| urlAddress  |   Stirng   |  设备名称 pc ,mobile 默认为--pc--  |
 ###config.js
 ***
 ###i18n文件
